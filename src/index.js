@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// if (module.hot) {
-//     module.hot.accept();
-// }
+
 ReactDOM.render(
     <React.StrictMode>
         <App />

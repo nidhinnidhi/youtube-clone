@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Versions
+
+Node version : v14.15.4
+NPM version : 6.14.10
+
 ## Available Scripts
 
 In the project directory, you can run:
