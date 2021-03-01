@@ -1,0 +1,42 @@
+.logo {
+    width: 100px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 15px;
+    background: #fff;
+    &__logo {
+        flex: 0 1 10%;
+        justify-content: flex-start;
+    }
+    &__search {
+        flex: 0 1 55%;
+    }
+    &__more {
+        flex: 0 1 10%;
+
+        justify-content: flex-end;
+        display: none;
+    }
+}
+.user {
+    width: 32px;
+    height: 32px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+@media screen and (min-width: 767px) {
+    .header {
+        &__more {
+            display: flex;
+        }
+        &__search {
+            flex: 0 1 40%;
+        }
+    }
+}
